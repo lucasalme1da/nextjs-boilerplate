@@ -13,6 +13,9 @@ jobs:
         with:
           node-version: 14.x
 
+      - name: Install dependencies
+        run: yarn install
+
       - name: Linting
         run: yarn lint
 
